@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AutoBoat</string>
+    <string-array name="spinner">
+        <item>Sélectionnez votre véhicule...</item>
+        <item>Voiture</item>
+        <item>Bateau</item>
+    </string-array>
+    <string name="marque">Marque</string>
+    <string name="modele">Modèle</string>
+    <string name="envoyer">Envoyer</string>
+    <string name="kilometres">Kilomètres</string>
+    <string name="nbreHeures">Nombre d\'heures</string>
+</resources>
