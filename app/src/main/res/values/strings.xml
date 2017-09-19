@@ -4,10 +4,12 @@
         <item>Sélectionnez votre véhicule...</item>
         <item>Voiture</item>
         <item>Bateau</item>
+        <item>Moto</item>
     </string-array>
     <string name="marque">Marque</string>
     <string name="modele">Modèle</string>
     <string name="envoyer">Envoyer</string>
     <string name="kilometres">Kilomètres</string>
     <string name="nbreHeures">Nombre d\'heures</string>
+    <string name="power">Power</string>
 </resources>

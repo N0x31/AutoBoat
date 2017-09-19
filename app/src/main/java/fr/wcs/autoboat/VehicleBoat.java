@@ -9,4 +9,8 @@ public class VehicleBoat extends Vehicle {
         this.hours = hours;
     }
 
+    @Override
+    public String getDescription() {
+        return "Type : Bateau" + "\n" + super.getDescription() + "\nNombre d'heures : " + hours;
+    }
 }

@@ -44,6 +44,14 @@
         android:inputType="textPersonName"
         android:hint="Nombre d'heures"/>
 
+    <EditText
+        android:id="@+id/power"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Power"/>
+
     <Button
         android:id="@+id/envoyer"
         android:layout_width="match_parent"

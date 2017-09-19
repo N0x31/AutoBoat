@@ -19,6 +19,7 @@ public class VehicleActivity extends AppCompatActivity{
         String modele = getIntent().getStringExtra("modele");
         String kilometres = getIntent().getStringExtra("kilometres");
         String nbreHeures = getIntent().getStringExtra("nbreHeures");
+        String power = getIntent().getStringExtra("power");
 
         TextView description = (TextView)findViewById(R.id.description);
 
@@ -30,6 +31,11 @@ public class VehicleActivity extends AppCompatActivity{
         else if (type == 2){
             VehicleBoat boat = new VehicleBoat(marque, modele, nbreHeures);
             description.setText(boat.getDescription());
+        }
+
+        else if (type == 3){
+            VehicleMoto moto = new VehicleMoto(marque, modele, power);
+            description.setText(moto.getDescription());
         }
     }
 

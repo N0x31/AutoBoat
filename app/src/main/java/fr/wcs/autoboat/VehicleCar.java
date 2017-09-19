@@ -10,4 +10,8 @@ public class VehicleCar extends Vehicle {
     }
 
 
+    @Override
+    public String getDescription() {
+        return "Type : Voiture" + "\n" + super.getDescription()+ "\nKilomètres : " + kilometers;
+    }
 }
